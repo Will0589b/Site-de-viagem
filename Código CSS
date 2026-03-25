@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: linear-gradient(to right, #1f6aa5, #2d8ac7);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  align-items: center;
+}
+
+.logo span {
+  color: orange;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.hero {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: rgb(184, 36, 36);
+  background-image: url("floresta-com-neve-dolomitas-italia.jpg");
+  background-size: cover;        
+  background-position: center;  
+  background-repeat: no-repeat;  
+
+  height: 90vh;                  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: rgb(251, 251, 251);
+}
+
+.hero.small {
+  height: 40vh;
+}
+
+.hero h1 {
+  font-size: 48px;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+}
+
+.hero p {
+  margin: 10px 0;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+}
+
+.btn {
+  background: rgb(213, 175, 24);
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.destinos {
+  padding: 40px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #f5f5f5;
+  border-radius: 10px;
+  width: 280px;
+  padding: 15px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.sobre {
+  text-align: center;
+  padding: 40px;
+}
+
+.contato {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  background: #e9f1f7;
+}
+
+.form input,
+.form textarea {
+  display: block;
+  width: 250px;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+button {
+  background: #2d8ac7;
+  color: white;
+  padding: 10px;
+  border: none;
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #1f6aa5;
+  color: white;
+}
+
+.info {
+  img {
+  width: 300px;
+}
+
+}
