@@ -1,0 +1,152 @@
+Página 1:
+!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>ExploreMundo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<header>
+  <div class="logo"><span>Explore</span>Mundo</div>
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="destinos.html">Destinos</a>
+    <a href="#">Sobre</a>
+    <a href="#">Contato</a>
+  </nav>
+</header>
+
+
+<section class="hero">
+  <div class="hero-text">
+    <h1>Descubra Lugares Incríveis!</h1>
+    <p>Explore os melhores destinos ao redor do mundo.</p>
+    <a href="destinos.html" class="btn">Saiba Mais</a>
+  </div>
+</section>
+
+
+<section class="destinos">
+  <h2>Destinos Populares</h2>
+
+  <div class="cards">
+    <div class="card">
+      <img src="tropical-beach-with-white-sand.jpg">
+      <h3>Praias Paradisíacas</h3>
+      <p>Conheça as mais belas praias</p>
+    </div>
+
+    <div class="card">
+      <img src="breathtaking-view-snowy-mountains-cloudy-sky-patagonia-chile.jpg">
+      <h3>Montanhas</h3>
+      <p>Aventuras nas alturas</p>
+    </div>
+
+    <div class="card">
+      <img src="Cidades-Historicas-770x515.jpg">
+      <h3>Cidades Históricas</h3>
+      <p>Explore a cultura e história</p>
+    </div>
+  </div>
+
+  <a href="destinos.html" class="btn">Ver Mais Destinos</a>
+</section>
+
+
+<section class="sobre">
+  <h2>Sobre Nós</h2>
+  <p>Somos apaixonados por viagens e queremos ajudar você a explorar o mundo!</p>
+</section>
+
+
+<section class="contato">
+  <div class="form">
+    <h3>Fale Conosco</h3>
+    <input type="text" placeholder="Nome">
+    <input type="email" placeholder="E-mail">
+    <textarea placeholder="Mensagem"></textarea>
+    <button>Enviar</button>
+  </div>
+
+  <div class="info">
+    <h3>Onde Estamos</h3>
+    <img src="Captura de tela 2026-03-25 094551.png">
+    <p>📧 contato@exploremundo.com</p>
+    <p>📞 (11) 1234-5678</p>
+  </div>
+</section>
+
+<footer>
+  © 2024 ExploreMundo - Todos os direitos reservados
+</footer>
+
+</body>
+</html>
+
+Página 2:
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Mais Destinos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo"> <span>Explore</span>Mundo</div>
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="destinos.html">Destinos</a>
+    <a href="#">Sobre</a>
+    <a href="#">Contato</a>
+  </nav>
+</header>
+
+<section class="hero small">
+  <div class="hero-text">
+    <h1>Mais Destinos Incríveis</h1>
+    <p>Descubra novos lugares para sua próxima viagem</p>
+  </div>
+</section>
+
+<section class="destinos">
+  <h2>Explore Mais Lugares</h2>
+
+  <div class="cards">
+    <div class="card">
+      <img src="tropical-beach-with-white-sand.jpg">
+      <h3>Ilhas Tropicais</h3>
+      <p>Paraíso na terra</p>
+    </div>
+
+    <div class="card">
+      <img src="neve.png">
+      <h3>Destinos Nevados</h3>
+      <p>Experiência no frio</p>
+    </div>
+
+    <div class="card">
+      <img src="beautiful-view-tranquil-desert-clear-sky-captured-morocco.jpg">
+      <h3>Desertos</h3>
+      <p>Aventuras exóticas</p>
+    </div>
+
+    <div class="card">
+      <img src="floresta.png">
+      <h3>Florestas</h3>
+      <p>Natureza selvagem</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2024 ExploreMundo - Todos os direitos reservados
+</footer>
+
+</body>
+</html>
