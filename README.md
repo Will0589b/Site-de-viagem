@@ -2,6 +2,10 @@
 
 Landing page responsiva de uma agência de viagens fictícia, criada para apresentar diferentes estilos de destinos em uma interface simples e agradável.
 
+## Demonstração online
+
+[Acessar o ExploreMundo](https://will0589b.github.io/exploremundo/)
+
 ## Funcionalidades
 
 - Página inicial com apresentação do projeto
